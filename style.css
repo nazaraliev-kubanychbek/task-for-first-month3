@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.item {
+    height: 150px;
+    width: 150px;
+    background-color: gold;
+}
+
+.card{
+    height: 250px;
+    width: 250px;
+    background-color: red;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
